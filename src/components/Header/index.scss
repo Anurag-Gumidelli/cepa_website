@@ -1,0 +1,44 @@
+.btn-text {
+  font-size: initial;
+  font-weight: 400;
+  color: #fff;
+}
+
+.school-link-text {
+  font-size: 28px;
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.org-title-text {
+  font-size: 28px;
+  color: #000;
+  font-weight: 400;
+  text-decoration: none;
+
+  &:hover {
+    color: #000;
+  }
+}
+
+.header-ctn {
+  height: 60px;
+}
+
+.page-btn-row {
+  display: flex;
+
+  & .page-btn {
+    margin: 0px 1px;
+    background: #881C1C;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+}
